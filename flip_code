@@ -68,54 +68,114 @@
 </head>
 <body>
 
+  <!-- 1. ARIS -->
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="https://your-image-link-1.jpg" alt="ARIS Project">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/aris.jpg?raw=true" alt="ARIS Project">
       </div>
       <div class="flip-card-back">
         <h3>Aphasia Recovery in Stroke (ARIS)</h3>
-        <p>Study of brain plasticity and recovery following stroke.</p>
+        <p>Brain plasticity and recovery following stroke.</p>
         <a href="https://your-site.com/project1">Read more</a>
       </div>
     </div>
   </div>
 
+  <!-- 2. Neural Mapping -->
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="https://your-image-link-2.jpg" alt="Neural Mapping">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/neural%20mapping.png?raw=true" alt="Neural Mapping">
       </div>
       <div class="flip-card-back">
         <h3>Neural Mapping in Stroke Aphasia</h3>
-        <p>Using PCA and imaging to map language deficits.</p>
+        <p>Mapping language deficits using PCA & fMRI.</p>
         <a href="https://your-site.com/project2">Read more</a>
       </div>
     </div>
   </div>
 
+  <!-- 3. Lesion Segmentation -->
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="https://your-image-link-3.jpg" alt="Lesion Segmentation">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/lesion_segmentation.png?raw=true" alt="Lesion Segmentation">
       </div>
       <div class="flip-card-back">
         <h3>Lesion Segmentation in Stroke MRI</h3>
-        <p>AI-based methods for accurate stroke lesion detection.</p>
+        <p>AI for stroke lesion detection in MRI.</p>
         <a href="https://your-site.com/project3">Read more</a>
       </div>
     </div>
   </div>
 
+  <!-- 4. Anomia -->
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="https://your-image-link-4.jpg" alt="Anomia Therapy">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/anomia.png?raw=true" alt="Anomia Therapy">
       </div>
       <div class="flip-card-back">
         <h3>Anomia Therapy in Chronic Aphasia</h3>
-        <p>Developing morphology-based treatment protocols.</p>
+        <p>Developing morphology-based treatments.</p>
         <a href="https://your-site.com/project4">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Dementia -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/dementia.jpg?raw=true" alt="Dementia">
+      </div>
+      <div class="flip-card-back">
+        <h3>Neurocognitive Aging & Dementia</h3>
+        <p>Language and memory decline in aging.</p>
+        <a href="https://your-site.com/project5">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Decoding -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/decoding.png?raw=true" alt="Decoding Language">
+      </div>
+      <div class="flip-card-back">
+        <h3>Language Decoding with AI</h3>
+        <p>Decoding speech from neural signals.</p>
+        <a href="https://your-site.com/project6">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. fMRI Signal -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/fmri_signal.png?raw=true" alt="fMRI Signal">
+      </div>
+      <div class="flip-card-back">
+        <h3>fMRI Signal Dynamics</h3>
+        <p>Understanding fMRI signals in stroke recovery.</p>
+        <a href="https://your-site.com/project7">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Interplay -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/interplay.jpg?raw=true" alt="Interplay">
+      </div>
+      <div class="flip-card-back">
+        <h3>Brain–Language Interplay</h3>
+        <p>Cross-domain interactions in cognition.</p>
+        <a href="https://your-site.com/project8">Read more</a>
       </div>
     </div>
   </div>
