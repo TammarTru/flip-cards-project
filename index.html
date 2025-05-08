@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Flip Cards for Projects</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Ongoing Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Lato', sans-serif;
@@ -13,16 +13,18 @@
     }
 
     h2 {
-      color: #002147;
-      margin: 60px 0 20px 40px;
-      font-size: 24px;
+      font-size: 1.5rem;
+      color: #183152;
+      margin: 40px 0 20px;
+      text-align: center;
     }
 
-    .card-grid {
+    .projects {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
+      margin-bottom: 60px;
     }
 
     .flip-card {
@@ -36,6 +38,7 @@
       position: relative;
       width: 100%;
       height: 100%;
+      text-align: center;
       transition: transform 0.6s;
       transform-style: preserve-3d;
     }
@@ -51,6 +54,7 @@
       backface-visibility: hidden;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
     }
 
     .flip-card-front {
@@ -60,20 +64,21 @@
       align-items: center;
       justify-content: center;
       padding: 10px;
-      text-align: center;
     }
 
     .flip-card-front img {
       max-width: 100%;
       height: 220px;
-      border-radius: 10px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
     }
 
-    .flip-card-front h3 {
-      margin: 10px 0 0;
+    .project-title {
+      font-weight: 300;
+      margin-top: 10px;
       font-size: 14px;
-      color: #002147;
-      font-weight: 400;
+      color: #183152;
+      text-align: center;
     }
 
     .flip-card-back {
@@ -85,35 +90,42 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      border-radius: 10px;
+    }
+
+    .flip-card-back h3 {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
     }
 
     .flip-card-back p {
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 1.4;
+      font-size: 14px;
       text-align: center;
+      font-weight: bold;
     }
 
     .flip-card-back a {
       color: #fff;
       margin-top: 10px;
       text-decoration: underline;
+      font-weight: normal;
     }
   </style>
 </head>
 <body>
 
   <h2>Brain Plasticity in Stroke Aphasia</h2>
-  <div class="card-grid">
+  <div class="projects">
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="https://github.com/TammarTru/flip-cards-project/blob/main/aris.jpg?raw=true" alt="ARIS">
-          <h3>Aphasia Recovery in Stroke (ARIS)</h3>
+          <div class="project-title">Aphasia Recovery in Stroke (ARIS)</div>
         </div>
         <div class="flip-card-back">
-          <p>Investigating brain plasticity and behavioral outcomes in post-stroke aphasia recovery.</p>
+          <h3>ARIS Project</h3>
+          <p>Studying neuroplasticity and language recovery after stroke.</p>
           <a href="https://www.halaiaphasialab.com/projects/aris">Learn more</a>
         </div>
       </div>
@@ -123,10 +135,11 @@
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="https://github.com/TammarTru/flip-cards-project/blob/main/neural_mapping.png?raw=true" alt="Neural Mapping">
-          <h3>Neural Mapping in Stroke Aphasia</h3>
+          <div class="project-title">Neural Mapping in Stroke Aphasia</div>
         </div>
         <div class="flip-card-back">
-          <p>PCA-based models of language, cognition, and brain-behavior relationships in aphasia.</p>
+          <h3>Mapping Dimensions</h3>
+          <p>Using PCA and imaging to reveal language impairments.</p>
           <a href="https://www.halaiaphasialab.com/projects/neural-mapping">Learn more</a>
         </div>
       </div>
@@ -136,10 +149,11 @@
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="https://github.com/TammarTru/flip-cards-project/blob/main/lesion_segmentation.png?raw=true" alt="Lesion Segmentation">
-          <h3>Lesion Segmentation in Stroke MRI</h3>
+          <div class="project-title">Lesion Segmentation in Stroke MRI</div>
         </div>
         <div class="flip-card-back">
-          <p>Developing AI tools for automated and accurate stroke lesion segmentation in MRI.</p>
+          <h3>Stroke MRI Segmentation</h3>
+          <p>Automated lesion mapping with AI methods.</p>
           <a href="https://www.halaiaphasialab.com/projects/lesion-segmentation">Learn more</a>
         </div>
       </div>
@@ -149,26 +163,28 @@
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="https://github.com/TammarTru/flip-cards-project/blob/main/anomia.png?raw=true" alt="Anomia Therapy">
-          <h3>Anomia Therapy in Chronic Aphasia</h3>
+          <div class="project-title">Anomia Therapy in Chronic Aphasia</div>
         </div>
         <div class="flip-card-back">
-          <p>Research on treatment generalization, maintenance, and neural changes after therapy.</p>
+          <h3>Anomia Therapy</h3>
+          <p>Investigating generalization and neural change post-therapy.</p>
           <a href="https://www.halaiaphasialab.com/projects/anomia-therapy">Learn more</a>
         </div>
       </div>
     </div>
   </div>
 
-  <h2 style="margin-top: 80px">Cognition and Language Processing</h2>
-  <div class="card-grid">
+  <h2>Cognition and Language Processing</h2>
+  <div class="projects">
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="https://github.com/TammarTru/flip-cards-project/blob/main/interplay.jpg?raw=true" alt="Brain Networks">
-          <h3>Exploring the Interplay Between Brain Networks</h3>
+          <div class="project-title">Exploring the Interplay Between Brain Networks</div>
         </div>
         <div class="flip-card-back">
-          <p>Examining connectivity between language, control, and memory networks post-stroke.</p>
+          <h3>Brain Networks</h3>
+          <p>How domain-general systems contribute to language function.</p>
           <a href="https://www.halaiaphasialab.com/projects/brain-networks">Learn more</a>
         </div>
       </div>
@@ -177,11 +193,12 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="https://github.com/TammarTru/flip-cards-project/blob/main/fmri_signal.png?raw=true" alt="fMRI Quality">
-          <h3>Improving fMRI signal Quality</h3>
+          <img src="https://github.com/TammarTru/flip-cards-project/blob/main/fmri_signal.png?raw=true" alt="fMRI Signal">
+          <div class="project-title">Improving fMRI Signal Quality</div>
         </div>
         <div class="flip-card-back">
-          <p>Using multi-echo and multi-band fMRI to boost signal and noise correction methods.</p>
+          <h3>fMRI Methods</h3>
+          <p>Optimizing signal acquisition and analysis for better results.</p>
           <a href="https://www.halaiaphasialab.com/projects/fmri-quality">Learn more</a>
         </div>
       </div>
@@ -191,10 +208,11 @@
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="https://github.com/TammarTru/flip-cards-project/blob/main/decoding.png?raw=true" alt="Neural Decoding">
-          <h3>Neural Decoding (7T MRI, ECoG)</h3>
+          <div class="project-title">Neural Decoding (7T MRI, ECoG)</div>
         </div>
         <div class="flip-card-back">
-          <p>High-resolution neuroimaging and neural recordings to decode language processes.</p>
+          <h3>Decoding Language</h3>
+          <p>Using 7T and ECoG to decode linguistic representations.</p>
           <a href="https://www.halaiaphasialab.com/projects/neural-decoding">Learn more</a>
         </div>
       </div>
@@ -204,10 +222,11 @@
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="https://github.com/TammarTru/flip-cards-project/blob/main/dementia.jpg?raw=true" alt="Dementia">
-          <h3>PPA and Dementia</h3>
+          <div class="project-title">PPA and Dementia</div>
         </div>
         <div class="flip-card-back">
-          <p>Investigating primary progressive aphasia and related disorders using behavioral and imaging data.</p>
+          <h3>PPA & Dementia</h3>
+          <p>Language profiles and progression in neurodegenerative disease.</p>
           <a href="https://www.halaiaphasialab.com/projects/dementia">Learn more</a>
         </div>
       </div>
