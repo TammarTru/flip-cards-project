@@ -68,49 +68,7 @@
 </head>
 <body>
 
-  <!-- 1. ARIS -->
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/aris.jpg?raw=true" alt="ARIS Project">
-      </div>
-      <div class="flip-card-back">
-        <h3>Aphasia Recovery in Stroke (ARIS)</h3>
-        <p>Brain plasticity and recovery following stroke.</p>
-        <a href="https://your-site.com/project1">Read more</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 2. Neural Mapping -->
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/neural%20mapping.png?raw=true" alt="Neural Mapping">
-      </div>
-      <div class="flip-card-back">
-        <h3>Neural Mapping in Stroke Aphasia</h3>
-        <p>Mapping language deficits using PCA & fMRI.</p>
-        <a href="https://your-site.com/project2">Read more</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 3. Lesion Segmentation -->
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/lesion_segmentation.png?raw=true" alt="Lesion Segmentation">
-      </div>
-      <div class="flip-card-back">
-        <h3>Lesion Segmentation in Stroke MRI</h3>
-        <p>AI for stroke lesion detection in MRI.</p>
-        <a href="https://your-site.com/project3">Read more</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 4. Anomia -->
+  <!-- 1. Anomia -->
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
@@ -119,26 +77,26 @@
       <div class="flip-card-back">
         <h3>Anomia Therapy in Chronic Aphasia</h3>
         <p>Developing morphology-based treatments.</p>
-        <a href="https://your-site.com/project4">Read more</a>
+        <a href="https://www.halaiaphasialab.com/projects#anomia">Read more</a>
       </div>
     </div>
   </div>
 
-  <!-- 5. Dementia -->
+  <!-- 2. ARIS -->
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/dementia.jpg?raw=true" alt="Dementia">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/aris.jpg?raw=true" alt="ARIS Project">
       </div>
       <div class="flip-card-back">
-        <h3>Neurocognitive Aging & Dementia</h3>
-        <p>Language and memory decline in aging.</p>
-        <a href="https://your-site.com/project5">Read more</a>
+        <h3>Aphasia Recovery in Stroke (ARIS)</h3>
+        <p>Brain plasticity and recovery following stroke.</p>
+        <a href="https://www.halaiaphasialab.com/projects#aris">Read more</a>
       </div>
     </div>
   </div>
 
-  <!-- 6. Decoding -->
+  <!-- 3. Decoding -->
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
@@ -147,12 +105,26 @@
       <div class="flip-card-back">
         <h3>Language Decoding with AI</h3>
         <p>Decoding speech from neural signals.</p>
-        <a href="https://your-site.com/project6">Read more</a>
+        <a href="https://www.halaiaphasialab.com/projects#decoding">Read more</a>
       </div>
     </div>
   </div>
 
-  <!-- 7. fMRI Signal -->
+  <!-- 4. Dementia -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/dementia.jpg?raw=true" alt="Dementia">
+      </div>
+      <div class="flip-card-back">
+        <h3>Neurocognitive Aging & Dementia</h3>
+        <p>Language and memory decline in aging.</p>
+        <a href="https://www.halaiaphasialab.com/projects#dementia">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. fMRI Signal -->
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
@@ -161,12 +133,12 @@
       <div class="flip-card-back">
         <h3>fMRI Signal Dynamics</h3>
         <p>Understanding fMRI signals in stroke recovery.</p>
-        <a href="https://your-site.com/project7">Read more</a>
+        <a href="https://www.halaiaphasialab.com/projects#fmri">Read more</a>
       </div>
     </div>
   </div>
 
-  <!-- 8. Interplay -->
+  <!-- 6. Interplay -->
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
@@ -175,7 +147,35 @@
       <div class="flip-card-back">
         <h3>Brain–Language Interplay</h3>
         <p>Cross-domain interactions in cognition.</p>
-        <a href="https://your-site.com/project8">Read more</a>
+        <a href="https://www.halaiaphasialab.com/projects#interplay">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Lesion Segmentation -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/lesion_segmentation.png?raw=true" alt="Lesion Segmentation">
+      </div>
+      <div class="flip-card-back">
+        <h3>Lesion Segmentation in Stroke MRI</h3>
+        <p>AI for stroke lesion detection in MRI.</p>
+        <a href="https://www.halaiaphasialab.com/projects#lesion">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Neural Mapping -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://github.com/TammarTru/flip-cards-project/blob/main/neural%20mapping.png?raw=true" alt="Neural Mapping">
+      </div>
+      <div class="flip-card-back">
+        <h3>Neural Mapping in Stroke Aphasia</h3>
+        <p>Mapping language deficits using PCA & fMRI.</p>
+        <a href="https://www.halaiaphasialab.com/projects#mapping">Read more</a>
       </div>
     </div>
   </div>
