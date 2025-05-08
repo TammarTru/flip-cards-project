@@ -2,21 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Flip Cards for Projects</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <title>Ongoing Projects Flip Cards</title>
   <style>
     body {
       font-family: 'Lato', sans-serif;
       background: #f9f9f9;
       padding: 40px;
+      margin: 0;
     }
-    .section-title {
-      font-size: 1.6em;
-      color: #333;
+    h2 {
+      font-size: 24px;
+      color: #003366;
+      text-align: center;
       margin-top: 40px;
       margin-bottom: 20px;
     }
-    .cards-container {
+    .grid {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -59,38 +60,30 @@
       border-radius: 10px;
     }
     .flip-card-back {
-      background-color: #4a90e2;
+      background-color: #003366;
       color: white;
       transform: rotateY(180deg);
       padding: 20px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
     }
     .flip-card-back h3 {
-      font-size: 1.2em;
-      color: #1a2a6c;
-      text-align: left;
-      width: 100%;
-      margin-bottom: 10px;
-    }
-    .flip-card-back p {
-      font-size: 0.9em;
-      text-align: left;
+      margin: 0;
+      font-size: 18px;
     }
     .flip-card-back a {
       color: #fff;
       margin-top: 10px;
       text-decoration: underline;
-      align-self: flex-start;
     }
   </style>
 </head>
 <body>
 
-  <div class="section-title">Brain Plasticity in Stroke Aphasia</div>
-  <div class="cards-container">
+  <h2>Brain Plasticity in Stroke Aphasia</h2>
+  <div class="grid">
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -98,25 +91,21 @@
         </div>
         <div class="flip-card-back">
           <h3>ARIS</h3>
-          <p>Investigating language recovery and plasticity after stroke.</p>
           <a href="https://www.halaiaphasialab.com/projects/aris" target="_blank">Learn more</a>
         </div>
       </div>
     </div>
-
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="https://github.com/TammarTru/flip-cards-project/blob/main/neural%20mapping.png?raw=true" alt="Neural Mapping">
+          <img src="https://github.com/TammarTru/flip-cards-project/blob/main/neural_mapping.png?raw=true" alt="Neural Mapping">
         </div>
         <div class="flip-card-back">
           <h3>Neural Mapping</h3>
-          <p>Data-driven mapping of post-stroke language impairments.</p>
           <a href="https://www.halaiaphasialab.com/projects/neural-mapping" target="_blank">Learn more</a>
         </div>
       </div>
     </div>
-
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -124,12 +113,10 @@
         </div>
         <div class="flip-card-back">
           <h3>Lesion Segmentation</h3>
-          <p>AI-based tools for stroke lesion identification.</p>
           <a href="https://www.halaiaphasialab.com/projects/lesion-segmentation" target="_blank">Learn more</a>
         </div>
       </div>
     </div>
-
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -137,15 +124,14 @@
         </div>
         <div class="flip-card-back">
           <h3>Anomia Therapy</h3>
-          <p>Therapy approaches for word retrieval deficits in aphasia.</p>
           <a href="https://www.halaiaphasialab.com/projects/anomia-therapy" target="_blank">Learn more</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="section-title">Cognition and Language Processing</div>
-  <div class="cards-container">
+  <h2>Cognition and Language Processing</h2>
+  <div class="grid">
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -153,25 +139,21 @@
         </div>
         <div class="flip-card-back">
           <h3>Brain Networks</h3>
-          <p>Studying functional interactions between language networks.</p>
           <a href="https://www.halaiaphasialab.com/projects/brain-networks" target="_blank">Learn more</a>
         </div>
       </div>
     </div>
-
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="https://github.com/TammarTru/flip-cards-project/blob/main/fmri_signal.png?raw=true" alt="fMRI Quality">
+          <img src="https://github.com/TammarTru/flip-cards-project/blob/main/fmri_signal.png?raw=true" alt="fMRI Signal">
         </div>
         <div class="flip-card-back">
-          <h3>fMRI Quality</h3>
-          <p>Improving signal quality using multi-echo and multiband fMRI.</p>
+          <h3>fMRI Signal</h3>
           <a href="https://www.halaiaphasialab.com/projects/fmri-quality" target="_blank">Learn more</a>
         </div>
       </div>
     </div>
-
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -179,20 +161,17 @@
         </div>
         <div class="flip-card-back">
           <h3>Neural Decoding</h3>
-          <p>Using 7T MRI and ECoG to decode neural signals.</p>
           <a href="https://www.halaiaphasialab.com/projects/neural-decoding" target="_blank">Learn more</a>
         </div>
       </div>
     </div>
-
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="https://github.com/TammarTru/flip-cards-project/blob/main/dementia.jpg?raw=true" alt="Dementia">
+          <img src="https://github.com/TammarTru/flip-cards-project/blob/main/dementia.jpg?raw=true" alt="Dementia Project">
         </div>
         <div class="flip-card-back">
-          <h3>Dementia</h3>
-          <p>Exploring primary progressive aphasia and related disorders.</p>
+          <h3>Dementia Project</h3>
           <a href="https://www.halaiaphasialab.com/projects/dementia" target="_blank">Learn more</a>
         </div>
       </div>
